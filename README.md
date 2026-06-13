@@ -97,7 +97,7 @@ EDA-Exploratory-Data-Analysis/
 - Matplotlib
 - Seaborn
 - SciPy
-- Scikit-Learn
+- KaggelHub
 - Jupyter Notebook
 
 ---
@@ -138,11 +138,112 @@ La parte práctica aplica los conceptos estudiados durante la investigación te�
 - Detección de outliers
 - Conclusiones finales
 
-Notebook principal:
+La práctica se desarrolló utilizando el dataset **Titanic**, con el objetivo de identificar los factores que influyeron en la supervivencia de los pasajeros.
+
+## Objetivos del análisis
+
+Responder a las siguientes preguntas:
+
+1. ¿Quiénes tuvieron más probabilidad de sobrevivir?
+2. ¿Qué factores fueron más importantes?
+3. ¿Existió algún patrón relevante en los datos?
+
+---
+
+## 📈 Resultados obtenidos
+
+### Tasa de supervivencia general
+
+- Supervivencia total: **40.45%**
+
+### Supervivencia por sexo
+
+| Sexo | Tasa de supervivencia |
+|--------|--------:|
+| Mujeres | 75.29% |
+| Hombres | 20.53% |
+
+**Conclusión:** Las mujeres tuvieron una probabilidad de supervivencia significativamente superior a la de los hombres.
+
+---
+
+### Supervivencia por clase social
+
+| Clase | Tasa de supervivencia |
+|--------|--------:|
+| Primera clase | 65.22% |
+| Segunda clase | 47.98% |
+| Tercera clase | 23.94% |
+
+**Conclusión:** Los pasajeros de primera clase tuvieron una probabilidad de supervivencia considerablemente mayor.
+
+---
+
+### Supervivencia por edad
+
+| Grupo | Tasa de supervivencia |
+|--------|--------:|
+| Niños | 53.98% |
+| Adultos | 37.90% |
+
+Edad promedio:
+
+- Supervivientes: **28.19 años**
+- No supervivientes: **30.63 años**
+
+**Conclusión:** Los niños mostraron una mayor tasa de supervivencia que los adultos.
+
+---
+
+### Supervivencia según viajaba solo o acompañado
+
+| Situación | Tasa de supervivencia |
+|------------|--------:|
+| Acompañado | 51.61% |
+| Solo | 31.84% |
+
+**Conclusión:** Viajar acompañado parece haber incrementado las probabilidades de supervivencia.
+
+---
+
+### Influencia del precio del billete
+
+| Estado | Precio medio |
+|---------|--------:|
+| No supervivientes | 22.97 |
+| Supervivientes | 51.65 |
+
+**Conclusión:** Los pasajeros que sobrevivieron pagaron, en promedio, tarifas más elevadas, lo que sugiere una relación entre nivel socioeconómico y supervivencia.
+
+---
+
+## 🎯 Conclusiones finales
+
+El análisis exploratorio realizado muestra que la supervivencia de los pasajeros del Titanic no fue aleatoria.
+
+Los factores con mayor influencia fueron:
+
+- Sexo.
+- Clase social.
+- Edad.
+- Tamaño de la unidad familiar o acompañamiento durante el viaje.
+
+Los resultados muestran que:
+
+- Las mujeres tuvieron una tasa de supervivencia muy superior a la de los hombres.
+- Los pasajeros de primera clase sobrevivieron con mayor frecuencia que los de tercera clase.
+- Los niños presentaron mejores tasas de supervivencia que los adultos.
+- Los pasajeros que viajaban acompañados sobrevivieron más que quienes viajaban solos.
+- Los supervivientes pagaron tarifas significativamente más elevadas.
+
+---
+
+# 📓 Notebook
+
+El desarrollo completo de la práctica puede consultarse en:
 
 ```text
-notebooks/EDA_Practica.ipynb
-```
+notebooks/titanic_eda.ipynb
 
 ---
 
@@ -162,17 +263,38 @@ El EDA permite transformar datos brutos en conocimiento útil y proporciona una 
 
 > Comprender los datos siempre debe ocurrir antes de modelar los datos.
 
-## Aprendizajes
 
-Durante esta fase se investigaron los fundamentos del Análisis Exploratorio de Datos:
+## 💡 Lecciones Aprendidas
 
-- Tipos de variables
-- Estadística descriptiva
-- Limpieza de datos
-- Correlación
-- Outliers
-- Pruebas de hipótesis
-- Herramientas Python para EDA
+Durante el desarrollo de este proyecto se identificaron varios aspectos importantes del Análisis Exploratorio de Datos:
+
+### 1. La calidad de los datos es tan importante como el análisis
+
+Antes de extraer conclusiones, es fundamental inspeccionar el conjunto de datos, detectar valores nulos, posibles inconsistencias y comprender el significado de cada variable.
+
+### 2. La visualización facilita la comprensión de los datos
+
+Gráficos como histogramas, diagramas de barras, boxplots y matrices de correlación permiten identificar patrones y anomalías que pueden pasar desapercibidos al observar únicamente tablas numéricas.
+
+### 3. La correlación no implica causalidad
+
+Aunque algunas variables mostraron una relación clara con la supervivencia, el análisis exploratorio permite identificar asociaciones, pero no demostrar relaciones causales de forma concluyente.
+
+### 4. El contexto es clave para interpretar los resultados
+
+Los datos muestran que variables como el sexo, la edad o la clase social estuvieron relacionadas con la supervivencia. Sin embargo, la interpretación de estos resultados requiere comprender el contexto histórico del desastre del Titanic.
+
+### 5. La preparación de los datos es una parte esencial del trabajo analítico
+
+Gran parte del tiempo dedicado a un proyecto de análisis se invierte en comprender, limpiar y transformar los datos antes de aplicar técnicas estadísticas o modelos predictivos.
+
+### 6. El EDA es una fase fundamental antes de cualquier modelo de Machine Learning
+
+Realizar un análisis exploratorio permite comprender mejor el dataset, detectar posibles problemas y formular hipótesis que servirán de base para futuras fases de modelado y predicción.
+
+### 7. Git y GitHub facilitan el control de versiones del proyecto
+
+El uso de ramas, commits y pull requests permitió organizar el trabajo, documentar cambios y mantener una estructura profesional durante el desarrollo de la actividad.
 
 
 ---
