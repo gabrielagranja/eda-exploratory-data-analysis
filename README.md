@@ -244,10 +244,11 @@ El desarrollo completo de la práctica puede consultarse en:
 
 ```text
 notebooks/titanic_eda.ipynb
+```
 
 ---
 
-## 🧠 Aprendizajes Clave
+# 🧠 Aprendizajes Clave
 
 El Análisis Exploratorio de Datos constituye una de las fases más importantes de cualquier proyecto basado en datos.
 
@@ -255,46 +256,9 @@ Antes de construir modelos predictivos o aplicar algoritmos de Machine Learning 
 
 - La estructura del dataset.
 - La calidad de los datos.
-- Las posibles inconsistencias.
 - Las relaciones entre variables.
-- Los patrones estadísticos presentes en la información.
-
-El EDA permite transformar datos brutos en conocimiento útil y proporciona una base sólida para la toma de decisiones y el desarrollo de modelos analíticos.
-
-> Comprender los datos siempre debe ocurrir antes de modelar los datos.
-
-
-## 💡 Lecciones Aprendidas
-
-Durante el desarrollo de este proyecto se identificaron varios aspectos importantes del Análisis Exploratorio de Datos:
-
-### 1. La calidad de los datos es tan importante como el análisis
-
-Antes de extraer conclusiones, es fundamental inspeccionar el conjunto de datos, detectar valores nulos, posibles inconsistencias y comprender el significado de cada variable.
-
-### 2. La visualización facilita la comprensión de los datos
-
-Gráficos como histogramas, diagramas de barras, boxplots y matrices de correlación permiten identificar patrones y anomalías que pueden pasar desapercibidos al observar únicamente tablas numéricas.
-
-### 3. La correlación no implica causalidad
-
-Aunque algunas variables mostraron una relación clara con la supervivencia, el análisis exploratorio permite identificar asociaciones, pero no demostrar relaciones causales de forma concluyente.
-
-### 4. El contexto es clave para interpretar los resultados
-
-Los datos muestran que variables como el sexo, la edad o la clase social estuvieron relacionadas con la supervivencia. Sin embargo, la interpretación de estos resultados requiere comprender el contexto histórico del desastre del Titanic.
-
-### 5. La preparación de los datos es una parte esencial del trabajo analítico
-
-Gran parte del tiempo dedicado a un proyecto de análisis se invierte en comprender, limpiar y transformar los datos antes de aplicar técnicas estadísticas o modelos predictivos.
-
-### 6. El EDA es una fase fundamental antes de cualquier modelo de Machine Learning
-
-Realizar un análisis exploratorio permite comprender mejor el dataset, detectar posibles problemas y formular hipótesis que servirán de base para futuras fases de modelado y predicción.
-
-### 7. Git y GitHub facilitan el control de versiones del proyecto
-
-El uso de ramas, commits y pull requests permitió organizar el trabajo, documentar cambios y mantener una estructura profesional durante el desarrollo de la actividad.
+- La presencia de valores atípicos.
+- Los patrones que pueden influir en los resultados.
 
 
 ---
