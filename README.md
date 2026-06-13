@@ -1,73 +1,79 @@
-# 📊 Exploratory Data Analysis (EDA)
+# 📊 Análisis Exploratorio de Datos (EDA)
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4C72B0)
-![SciPy](https://img.shields.io/badge/SciPy-Scientific%20Computing-8CAAE6?logo=scipy)
+![Pandas](https://img.shields.io/badge/Pandas-Análisis%20de%20Datos-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Cálculo%20Numérico-013243?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualización-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualización%20Estadística-4C72B0)
+![SciPy](https://img.shields.io/badge/SciPy-Cómputo%20Científico-8CAAE6?logo=scipy)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?logo=scikitlearn)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)
 
-A comprehensive introduction to **Exploratory Data Analysis (EDA)**, combining theoretical foundations with practical implementation in Python using industry-standard data science libraries.
-
-Gabriela Granja
-F5 AI Bootcamp
-June 2026
+Introducción teórica y aplicación práctica del **Análisis Exploratorio de Datos (EDA)** utilizando Python y las principales librerías del ecosistema de Ciencia de Datos.
 
 ---
 
-## 🎯 Project Overview 
+## 🎯 Descripción del Proyecto
 
-This repository contains both the theoretical research and practical implementation of Exploratory Data Analysis (EDA) developed as part of a Data Analytics training program.
+Este repositorio contiene tanto la investigación teórica como la implementación práctica de un proceso de **Exploratory Data Analysis (EDA)** desarrollado dentro de un programa de formación en Data Analytics.
 
-The project aims to understand how data can be explored, cleaned, visualized and validated before applying statistical models or machine learning techniques.
+El objetivo es comprender cómo inspeccionar, limpiar, visualizar y analizar datos antes de aplicar modelos estadísticos o algoritmos de Machine Learning.
 
-The repository is divided into two complementary sections:
+El proyecto se divide en dos grandes bloques:
 
-- **Part 1 – Theoretical Research**
-- **Part 2 – Practical Implementation in Python**
-
----
-
-## 📚 Table of Contents
-
-### Part 1 – Theoretical Research
-
-1. What is EDA and what is its purpose?
-2. Types of Data in EDA
-3. Univariate, Bivariate and Multivariate Analysis
-4. Descriptive Statistics
-5. Data Cleaning
-6. Pandas, Matplotlib and Seaborn
-7. Correlation Matrix
-8. Outlier Detection and Treatment
-9. Hypothesis Testing
-
-### Part 2 – Practical Implementation
-
-10. Dataset Exploration
-11. Data Cleaning
-12. Descriptive Analysis
-13. Data Visualization
-14. Correlation Analysis
-15. Outlier Analysis
-16. Conclusions
+- **Parte 1 – Investigación Teórica**
+- **Parte 2 – Implementación Práctica**
 
 ---
 
-## 🗂️ Repository Structure
+## 📚 Contenido
+
+### Parte 1 – Investigación Teórica
+
+- [01. ¿Qué es el EDA y cuál es su propósito?](docs/01_what_is_eda.md)
+- [02. Tipos de datos en un EDA](docs/02_data_types.md)
+- [03. Análisis univariado, bivariado y multivariado](docs/03_analysis_types.md)
+- [04. Estadística descriptiva](docs/04_descriptive_statistics.md)
+- [05. Limpieza de datos](docs/05_data_cleaning.md)
+- [06. Pandas, Matplotlib y Seaborn](docs/06_python_libraries.md)
+- [07. Matriz de correlación](docs/07_correlation_matrix.md)
+- [08. Detección y tratamiento de outliers](docs/08_outliers.md)
+- [09. Hypothesis Testing](docs/09_hypothesis_testing.md)
+
+### Parte 2 – Implementación Práctica
+
+- Inspección del dataset
+- Limpieza de datos
+- Estadística descriptiva
+- Visualización de datos
+- Correlaciones
+- Detección de outliers
+- Conclusiones
+
+---
+
+## 🗂️ Estructura del Repositorio
 
 ```text
 EDA-Exploratory-Data-Analysis/
 │
 ├── README.md
 │
+├── docs/
+│   ├── 01_what_is_eda.md
+│   ├── 02_data_types.md
+│   ├── 03_analysis_types.md
+│   ├── 04_descriptive_statistics.md
+│   ├── 05_data_cleaning.md
+│   ├── 06_python_libraries.md
+│   ├── 07_correlation_matrix.md
+│   ├── 08_outliers.md
+│   └── 09_hypothesis_testing.md
+│
 ├── notebooks/
 │   └── EDA_Practica.ipynb
 │
 ├── data/
-│   └── dataset.csv
 │
 ├── images/
 │
@@ -78,13 +84,13 @@ EDA-Exploratory-Data-Analysis/
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tecnologías Utilizadas
 
-### Programming Language
+### Lenguaje de Programación
 
 - Python 3
 
-### Libraries
+### Librerías Principales
 
 - Pandas
 - NumPy
@@ -96,43 +102,43 @@ EDA-Exploratory-Data-Analysis/
 
 ---
 
-## 📖 Part 1 – Theoretical Research
+## 📖 Parte 1 – Investigación Teórica
 
-The theoretical section explores the foundations of Exploratory Data Analysis and covers the key concepts required to understand and prepare data for analysis.
+La parte teórica desarrolla los fundamentos del Análisis Exploratorio de Datos, proporcionando la base conceptual necesaria para comprender y preparar conjuntos de datos antes de realizar cualquier análisis avanzado.
 
-### Topics Covered
+### Temas desarrollados
 
-- Fundamentals of EDA
-- Data Types and Measurement Scales
-- Univariate, Bivariate and Multivariate Analysis
-- Descriptive Statistics
-- Data Cleaning and Preprocessing
-- Data Visualization
-- Correlation Analysis
-- Outlier Detection and Treatment
-- Hypothesis Testing
+- Fundamentos del EDA
+- Tipos de datos y escalas de medición
+- Análisis univariado, bivariado y multivariado
+- Estadística descriptiva
+- Limpieza y preparación de datos
+- Visualización de datos
+- Correlación entre variables
+- Detección y tratamiento de outliers
+- Pruebas de hipótesis
 
-The complete research is documented in the main README.
+Toda la documentación se encuentra organizada dentro de la carpeta `docs`.
 
 ---
 
-## 💻 Part 2 – Practical Implementation
+## 💻 Parte 2 – Implementación Práctica
 
-The practical section applies the concepts studied during the theoretical research through a real Exploratory Data Analysis workflow in Python.
+La parte práctica aplica los conceptos estudiados durante la investigación teórica mediante un flujo completo de trabajo de EDA utilizando Python.
 
-### Practical Tasks
+### Flujo de trabajo
 
-- Dataset loading
-- Data inspection
-- Missing value analysis
-- Data cleaning
-- Statistical summaries
-- Data visualization
-- Correlation analysis
-- Outlier detection
-- Final insights
+- Carga del dataset
+- Exploración inicial
+- Identificación de valores nulos
+- Limpieza de datos
+- Estadística descriptiva
+- Visualización de datos
+- Matriz de correlación
+- Detección de outliers
+- Conclusiones finales
 
-Notebook location:
+Notebook principal:
 
 ```text
 notebooks/EDA_Practica.ipynb
@@ -140,36 +146,37 @@ notebooks/EDA_Practica.ipynb
 
 ---
 
-## 🧠 Key Takeaways
+## 🧠 Aprendizajes Clave
 
-Exploratory Data Analysis is one of the most important stages in any data project.
+El Análisis Exploratorio de Datos constituye una de las fases más importantes de cualquier proyecto basado en datos.
 
-Before building predictive models or applying machine learning algorithms, it is essential to understand:
+Antes de construir modelos predictivos o aplicar algoritmos de Machine Learning es imprescindible comprender:
 
-- The structure of the data
-- The quality of the information
-- Potential inconsistencies
-- Relationships between variables
-- Statistical patterns and anomalies
+- La estructura del dataset.
+- La calidad de los datos.
+- Las posibles inconsistencias.
+- Las relaciones entre variables.
+- Los patrones estadísticos presentes en la información.
 
-EDA transforms raw data into meaningful insights and provides the foundation for reliable decision-making.
+El EDA permite transformar datos brutos en conocimiento útil y proporciona una base sólida para la toma de decisiones y el desarrollo de modelos analíticos.
 
-> Understanding the data always comes before modeling the data.
+> Comprender los datos siempre debe ocurrir antes de modelar los datos.
 
 ---
 
-## 📚 References
+## 📚 Fuentes Consultadas
 
-### Institutional Documentation
+### Documentación Institucional
 
-**Government of Spain – Datos.gob.es**
+**Gobierno de España – Datos.gob.es**
 
-Guide to Exploratory Data Analysis (2021)
+*Guía práctica de introducción al Análisis Exploratorio de Datos (2021)*
 
 https://datos.gob.es/sites/default/files/doc/file/analisis_exploratorio_de_datos_2021.pdf
 
-### Official Documentation
+### Documentación Oficial
 
+- Python — https://docs.python.org/
 - Pandas — https://pandas.pydata.org/docs/
 - NumPy — https://numpy.org/doc/
 - Matplotlib — https://matplotlib.org/stable/
@@ -177,28 +184,30 @@ https://datos.gob.es/sites/default/files/doc/file/analisis_exploratorio_de_datos
 - SciPy — https://docs.scipy.org/doc/scipy/
 - Scikit-Learn — https://scikit-learn.org/stable/
 
-### Academic References
+### Bibliografía Académica
 
 **Tukey, J. W. (1977)**  
 *Exploratory Data Analysis.*  
 Addison-Wesley.
 
-**James, G., Witten, D., Hastie, T., Tibshirani, R. (2021)**  
+**Wickham, H. & Grolemund, G. (2017)**  
+*R for Data Science.*  
+O'Reilly Media.
+
+**James, G., Witten, D., Hastie, T. & Tibshirani, R. (2021)**  
 *An Introduction to Statistical Learning.*  
 Springer.
 
-**Wickham, H., Grolemund, G. (2017)**
-*R for Data Science.*
-O'Reilly Media.
-
-**Montgomery, D. C., Runger, G. C. (2018)**  
+**Montgomery, D. C. & Runger, G. C. (2018)**  
 *Applied Statistics and Probability for Engineers.*  
 Wiley.
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 Autor
 
 **Gabriela Granja**
 
-Digital Marketing Professional expanding into Data Analytics, Automation and Artificial Intelligence.
+Business, Marketing & AI
+
+Bootcamp de Data Analytics | Proyecto de Análisis Exploratorio de Datos
