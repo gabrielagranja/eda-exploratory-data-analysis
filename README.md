@@ -162,7 +162,21 @@ El EDA permite transformar datos brutos en conocimiento útil y proporciona una 
 
 > Comprender los datos siempre debe ocurrir antes de modelar los datos.
 
+## Aprendizajes
+
+Durante esta fase se investigaron los fundamentos del Análisis Exploratorio de Datos:
+
+- Tipos de variables
+- Estadística descriptiva
+- Limpieza de datos
+- Correlación
+- Outliers
+- Pruebas de hipótesis
+- Herramientas Python para EDA
+
+
 ---
+
 
 ## 📚 Fuentes Consultadas
 
