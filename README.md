@@ -11,9 +11,13 @@
 
 A comprehensive introduction to **Exploratory Data Analysis (EDA)**, combining theoretical foundations with practical implementation in Python using industry-standard data science libraries.
 
+Gabriela Granja
+F5 AI Bootcamp
+June 2026
+
 ---
 
-## 🎯 Project Overview
+## 🎯 Project Overview 
 
 This repository contains both the theoretical research and practical implementation of Exploratory Data Analysis (EDA) developed as part of a Data Analytics training program.
 
